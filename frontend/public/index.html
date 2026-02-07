@@ -1,27 +1,164 @@
 <!doctype html>
-<html lang="en">
+<html lang="es-MX">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="A product of emergent.sh" />
+        <meta name="theme-color" content="#0f172a" />
+        
+        <!-- SEO Meta Tags -->
+        <title>SANDOVAL & ASOCIADOS | Fianzas y Seguros en México - Administrativas, Fiscales, Judiciales</title>
+        <meta name="description" content="Especialistas en fianzas administrativas, fiscales, judiciales y de fidelidad en México. Más de 25 años de experiencia. Emisión en 24 horas. Cotización sin compromiso. CNSF Autorizados." />
+        <meta name="keywords" content="fianzas México, fianzas administrativas, fianzas fiscales, fianzas judiciales, fianzas de fidelidad, seguros empresariales, seguro de caución, afianzadora México, fianzas CDMX, fianzas cumplimiento, fianzas anticipo, fianzas SAT, fianzas IMSS" />
+        <meta name="author" content="SANDOVAL & ASOCIADOS" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        
+        <!-- Geo Tags for Mexico -->
+        <meta name="geo.region" content="MX-CMX" />
+        <meta name="geo.placename" content="Ciudad de México" />
+        <meta name="geo.position" content="19.432608;-99.133209" />
+        <meta name="ICBM" content="19.432608, -99.133209" />
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="SANDOVAL & ASOCIADOS" />
+        <meta property="og:title" content="SANDOVAL & ASOCIADOS | Fianzas y Seguros en México" />
+        <meta property="og:description" content="Especialistas en fianzas administrativas, fiscales, judiciales y de fidelidad. Más de 25 años de experiencia protegiendo patrimonios en México." />
+        <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+        
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SANDOVAL & ASOCIADOS | Fianzas y Seguros en México" />
+        <meta name="twitter:description" content="Especialistas en fianzas administrativas, fiscales, judiciales y de fidelidad. Emisión en 24 horas." />
+        
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://sandovalyasociados.com.mx" />
+        
+        <!-- Language Alternates -->
+        <link rel="alternate" hreflang="es-MX" href="https://sandovalyasociados.com.mx" />
+        <link rel="alternate" hreflang="x-default" href="https://sandovalyasociados.com.mx" />
+        
+        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
-        <!--
-        manifest.json provides metadata used when your web app is installed on a
-        user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-        -->
-        <!--
-        Notice the use of %PUBLIC_URL% in the tags above.
-        It will be replaced with the URL of the `public` folder during the build.
-        Only files inside the `public` folder can be referenced from the HTML.
-
-        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-        work correctly both with client-side routing and a non-root public URL.
-        Learn how to configure a non-root public URL by running `npm run build`.
-        -->
-        <title>Emergent | Fullstack App</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+        
+        <!-- Structured Data / Schema.org -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "InsuranceAgency",
+            "name": "SANDOVAL & ASOCIADOS",
+            "description": "Especialistas en fianzas administrativas, fiscales, judiciales y de fidelidad en México. Más de 25 años de experiencia.",
+            "url": "https://sandovalyasociados.com.mx",
+            "telephone": "+52-55-1234-5678",
+            "email": "contacto@sandovalyasociados.com.mx",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Av. Paseo de la Reforma 250, Col. Juárez",
+                "addressLocality": "Ciudad de México",
+                "addressRegion": "CDMX",
+                "postalCode": "06600",
+                "addressCountry": "MX"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 19.432608,
+                "longitude": -99.133209
+            },
+            "areaServed": {
+                "@type": "Country",
+                "name": "México"
+            },
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                    "opens": "09:00",
+                    "closes": "18:00"
+                }
+            ],
+            "sameAs": [
+                "https://www.facebook.com/sandovalyasociados",
+                "https://www.linkedin.com/company/sandovalyasociados",
+                "https://www.instagram.com/sandovalyasociados"
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Servicios de Fianzas y Seguros",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Fianzas Administrativas",
+                            "description": "Garantías para cumplimiento de contratos con dependencias gubernamentales y empresas privadas"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Fianzas Fiscales",
+                            "description": "Garantías para obligaciones ante SAT, IMSS, INFONAVIT y otras autoridades fiscales"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Fianzas Judiciales",
+                            "description": "Respaldo legal para procesos civiles, penales y mercantiles"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Fianzas de Fidelidad",
+                            "description": "Protección contra pérdidas por actos deshonestos de empleados"
+                        }
+                    }
+                ]
+            }
+        }
+        </script>
+        
+        <!-- FAQ Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Qué es una fianza y para qué sirve?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Una fianza es un contrato mediante el cual una institución afianzadora se compromete a responder ante un beneficiario por el cumplimiento de una obligación del fiado. Sirve como garantía de que se cumplirán compromisos contractuales, fiscales o legales."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Cuánto tiempo tarda la emisión de una fianza?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "En SANDOVAL & ASOCIADOS nos comprometemos a emitir fianzas en un máximo de 24 horas hábiles una vez recibida la documentación completa."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Cuál es el costo de una fianza?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "El costo depende del tipo de fianza, monto garantizado, plazo y perfil del solicitante. Generalmente oscila entre el 1% y 3% del monto afianzado anualmente."
+                    }
+                }
+            ]
+        }
+        </script>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
         <!--
         These two scripts have been added for the Visual Edits, please do not edit or remove them
