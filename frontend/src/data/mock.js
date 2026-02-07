@@ -4,9 +4,9 @@ export const companyInfo = {
   name: "SANDOVAL & ASOCIADOS",
   tagline: "Especialistas en Fianzas y Seguros",
   description: "Más de 25 años de experiencia protegiendo patrimonios y garantizando el cumplimiento de obligaciones en México.",
-  phone: "+52 55 1234 5678",
-  whatsapp: "+525512345678",
-  email: "contacto@sandovalyasociados.com.mx",
+  phone: "+52 984 151 8888",
+  whatsapp: "+529841518888",
+  email: "ivan@kahan.com",
   address: "Av. Paseo de la Reforma 250, Col. Juárez, C.P. 06600, Alcaldía Cuauhtémoc, CDMX",
 };
 
